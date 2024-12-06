@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 import { Router } from 'express'
 import { SigninSchema, SignupSchema } from '../types/types'
@@ -99,3 +100,13 @@ router.get("/user",authMiddleware, async (req,res)=>{
 })
 
 export const userRouter = router
+=======
+import express from 'express'
+import { Router } from 'express'
+const router = Router()
+
+router.post('/signup',async (req,res) =>{
+    const body = req.body
+    
+})
+>>>>>>> 6b6bb5754c9b25e82baddb00e76faf79485a05f2
