@@ -5,10 +5,12 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const express_1 = __importDefault(require("express"));
 const User_1 = require("./routes/User");
+const zap_1 = require("./routes/zap");
 const app = (0, express_1.default)();
 app.use(express_1.default.json());
 // app.use(cors())
 app.use('/api/v1/user', User_1.userRouter);
+app.use("/api/v1/zap", zap_1.zapRouter);
 app.listen(3000, () => {
     console.log("server is listening in port 3000");
 });
