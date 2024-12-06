@@ -4,18 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-<<<<<<< HEAD
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev" : "tsc -b && node dist/index.js"
-=======
-    "test": "echo \"Error: no test specified\" && exit 1"
->>>>>>> 6b6bb5754c9b25e82baddb00e76faf79485a05f2
+
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-<<<<<<< HEAD
     "@prisma/client": "^6.0.1",
     "@types/bcrypt": "^5.0.2",
     "@types/express": "^5.0.0",
@@ -25,9 +21,6 @@
     "jsonwebtoken": "^9.0.2",
     "prisma": "^6.0.1",
     "zod": "^3.23.8"
-=======
-    "@types/express": "^5.0.0",
-    "express": "^4.21.1"
->>>>>>> 6b6bb5754c9b25e82baddb00e76faf79485a05f2
+
   }
 }
